@@ -1,0 +1,14 @@
+source = 'archive/img_align_celeba/img_align_celeba'
+data_dir = "celeba_faces_64"
+limit=50000
+batch_size =128
+latent_size= 100
+nc= 3
+img_size =64
+lr_G= 0.0002
+lr_D= 0.00007
+lat_dim =100
+epochs= 50
+embed_dim= 50
+lambda_gp= 10
+n_critic= 5
